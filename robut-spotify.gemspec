@@ -21,5 +21,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "robot"
   gem.add_dependency "highline"
   gem.add_dependency "hallon"
+  # Server dependencies
   gem.add_dependency "sinatra"
+  gem.add_dependency "thin"
 end
